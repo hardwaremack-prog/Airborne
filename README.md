@@ -23,7 +23,7 @@ You command the anti-aircraft gun at the bottom of the screen.
 Scoring: Helicopter 10 · Jet 25 · Trooper 5 · Bomb/Shell 5 · Tank 50. You start with 3 guns, and your high score is saved in the browser.
 
 ## Features
-- Authentic 1-bit look: 512×320 playfield, dithered patterns, a Mac-style menu bar and striped title bar, pixel-perfect integer scaling
+- Black-and-white Mac look, rendered in HD at your screen's full resolution: crisp vector artwork, fine 1-pixel dither shading, a Mac-style menu bar and striped title bar
 - Synthesized sound effects (Web Audio): gunfire, explosions, helicopter chop, jet roar, bomb whistles, and a spoken "Airborne!" at start
 - Works on desktop, Raspberry Pi (Chromium) and touch screens
 
