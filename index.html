@@ -658,7 +658,7 @@ function drawHUD() {
   }
   // landed-trooper threat meter (left/right)
   const L = S.ground.filter(g => g.side < 0).length, R = S.ground.filter(g => g.side > 0).length;
-  text('◄' + Math.min(L, 4) + '/4  ' + Math.min(R, 4) + '/4►', 350, 2, 10, 'left', 'normal');
+  text('L ' + Math.min(L, 4) + '/4  R ' + Math.min(R, 4) + '/4', 350, 2, 10, 'left', 'normal');
   text('HI ' + String(hi).padStart(6, '0'), W - 6, 1, 11, 'right');
 }
 function drawTitle() {
@@ -677,7 +677,7 @@ function drawTitle() {
   text('AIRBORNE!', W / 2, 92, 36, 'center');
   text('a tribute to the 1984 Macintosh classic', W / 2, 136, 10, 'center', 'normal');
   ctx.fillRect(W / 2 - 140, 152, 280, 1);
-  const lines = ['Mouse or ← → aims the gun · Click or SPACE fires',
+  const lines = ['Mouse or arrow keys aim the gun · Click or SPACE fires',
                  'Don\'t let 4 troopers land on one side!',
                  'Shoot bombs and tank shells before they hit you.',
                  'P pause · M sound · N new game'];
