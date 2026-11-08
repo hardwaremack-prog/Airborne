@@ -1,5 +1,7 @@
 # Airborne! — 1984 Macintosh tribute remake
 
+### ▶ [Play it now](https://hardwaremack-prog.github.io/Airborne/)
+
 A browser remake of **Airborne!**, the black-and-white 1984 Macintosh arcade game from Silicon Beach Software.
 It's one self-contained `index.html` with no assets and no install. Open it in any modern browser and play.
 
